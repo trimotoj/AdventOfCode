@@ -32,7 +32,8 @@ santa=set(santa)
 robot=set(robot)
 for i in santa:
     if i in robot:
-        common+=(i),     
+        common+=(i),  
+           
 print((len(santa)+len(robot))-(len(common)))
 
 
