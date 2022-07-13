@@ -7,7 +7,6 @@ def triple_letters(line):
     for char in range(len(line)-2):
         if line[char] == line[char+2]:
             return True
-
 #EXECUTION            
 nice_strings=0
 with open('2015/day5/vstup') as file:
@@ -16,6 +15,6 @@ with open('2015/day5/vstup') as file:
         if double_letters(line) == True:
             if triple_letters(line) == True:
                 nice_strings+=1
-                
+
 print(nice_strings)       
             

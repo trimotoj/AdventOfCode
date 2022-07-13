@@ -14,7 +14,6 @@ def prohibited_strings(line):
     for i in con3:
         if i in line:
             return False
-            
 # EXUCUTION
 nice_strings = 0
 con3 = ('ab' , 'cd' , 'pq' , 'xy')
